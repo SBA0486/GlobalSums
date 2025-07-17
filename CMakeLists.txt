@@ -126,7 +126,7 @@ if (CMAKE_VECTOR_VERBOSE)
 endif (CMAKE_VECTOR_VERBOSE)
 
 target_include_directories(globalsums PRIVATE vectorclass)
-set_source_files_properties(globalsums.c PROPERTIES COMPILE_FLAGS "${VECTOR_C_FLAGS})
+set_source_files_properties(globalsums.c PROPERTIES COMPILE_FLAGS "${VECTOR_C_FLAGS}")
 set_source_files_properties(do_full_qdsum.c PROPERTIES COMPILE_FLAGS "${VECTOR_C_FLAGS}")
 set_source_files_properties(do_full_qdsum_wtrunc.c PROPERTIES COMPILE_FLAGS "${VECTOR_C_FLAGS}")
 set_source_files_properties(do_kahan_sum.c PROPERTIES COMPILE_FLAGS "${VECTOR_C_FLAGS}")
